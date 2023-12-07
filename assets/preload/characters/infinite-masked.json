@@ -1,80 +1,79 @@
 {
-	"animations": [
-		{
-			"offsets": [
-				-52,
-				149
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "idle",
-			"indices": [],
-			"name": "Infinite_IdleDance"
-		},
-		{
-			"offsets": [
-				0,
-				190
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singDOWN",
-			"indices": [],
-			"name": "Infinite_SingDOWN"
-		},
-		{
-			"offsets": [
-				0,
-				95
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singUP",
-			"indices": [],
-			"name": "Infinite_SingUP"
-		},
-		{
-			"offsets": [
-				-62,
-				233
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singLEFT",
-			"indices": [],
-			"name": "Infinite_SingLEFT"
-		},
-		{
-			"offsets": [
-				-110,
-				181
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singRIGHT",
-			"indices": [],
-			"name": "Infinite_SingRIGHT"
-		}
-	],
-	"no_antialiasing": false,
-	"image": "characters/InfiniteAssets_Masked",
-	"position": [
-		-230,
-		-250
-	],
-	"healthicon": "maskedinfinite",
-	"flip_x": false,
-	"healthbar_colors": [
-		255,
-		0,
-		80
-	],
-	"camera_position": [
-		250,
-		100
-	],
-	"sing_duration": 6.1,
-	"scale": 0.6,
-	"shadow_Offset": -100,
-	"charaFloat": true
+  "animations": [
+    {
+      "loop": false,
+      "offsets": [
+        -52,
+        149
+      ],
+      "anim": "idle",
+      "fps": 24,
+      "name": "Infinite_IdleDance",
+      "indices": []
+    },
+    {
+      "loop": false,
+      "offsets": [
+        0,
+        190
+      ],
+      "anim": "singDOWN",
+      "fps": 24,
+      "name": "Infinite_SingDOWN",
+      "indices": []
+    },
+    {
+      "loop": false,
+      "offsets": [
+        0,
+        95
+      ],
+      "anim": "singUP",
+      "fps": 24,
+      "name": "Infinite_SingUP",
+      "indices": []
+    },
+    {
+      "loop": false,
+      "offsets": [
+        -62,
+        233
+      ],
+      "anim": "singLEFT",
+      "fps": 24,
+      "name": "Infinite_SingLEFT",
+      "indices": []
+    },
+    {
+      "loop": false,
+      "offsets": [
+        -110,
+        181
+      ],
+      "anim": "singRIGHT",
+      "fps": 24,
+      "name": "Infinite_SingRIGHT",
+      "indices": []
+    }
+  ],
+  "no_antialiasing": false,
+  "image": "characters/InfiniteAssets_Masked",
+  "position": [
+    -80,
+    -20
+  ],
+  "healthicon": "maskedinfinite",
+  "flip_x": false,
+  "healthbar_colors": [
+    255,
+    0,
+    80
+  ],
+  "camera_position": [
+    100,
+    -120
+  ],
+  "sing_duration": 6.1,
+  "shadow_Offset": 100,
+  "scale": 1.2
 }
