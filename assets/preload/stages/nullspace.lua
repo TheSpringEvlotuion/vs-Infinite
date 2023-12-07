@@ -1,7 +1,7 @@
 function onCreate()
 	posX = -400;
 	posY = -425;
-	scale = 1.7;
+	scale = 3.4;
 
 	-- background shit
 	makeLuaSprite('bg', 'nullspace/bg1', posX, posY);
@@ -20,6 +20,7 @@ function onCreate()
 	updateHitbox('bg3');
 	
 	makeAnimatedLuaSprite('lightning', 'nullspace/bolt', 0, posY);
+	scaleObject('lightning', 2.0, 2.0);
 	addAnimationByPrefix('lightning', 'stike', 'BGLightning', 24, false);
 	setScrollFactor('lightning', 0.3, 0.3);
 	setProperty('lightning.alpha', 0.001);
