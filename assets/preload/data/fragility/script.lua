@@ -1,10 +1,10 @@
 function onCreate()
 	posX = 0;
 	posY = 0;
-	scale = 1;
+	scale = 2;
 	
 	makeLuaSprite('ruby', '', -200, -200);	
-    makeGraphic('ruby', 1280*2, 720*2, '0xFF0046');
+    makeGraphic('ruby', 1280*2, 720*2, 'FF0046');
     setScrollFactor('ruby', 0, 0);
 	setObjectCamera('ruby', 'Game');
 	setProperty('ruby.alpha', 0.0001);
@@ -13,26 +13,26 @@ function onCreate()
 	makeAnimatedLuaSprite('rubyspeed', 'SSH/infinitespeed', posX, posY);
 	addAnimationByPrefix('rubyspeed', 'infinitewin', 'RedSpeed', 24, true);
 	setScrollFactor('rubyspeed', 0, 0);
-	scaleObject('rubyspeed', 1.5, 1.5);
+	scaleObject('rubyspeed', 3.0, 3.0);
 	setProperty('rubyspeed.alpha', 0.001);
 	addLuaSprite('rubyspeed', false);
     screenCenter('rubyspeed');
 
 	makeLuaSprite('dramashadow', 'SSH/dramablack', -600, -300);
 	setScrollFactor('dramashadow', 1, 1);
-	scaleObject('dramashadow', 2, 2);
+	scaleObject('dramashadow', 4, 4);
 	addLuaSprite('dramashadow', false);
 	setProperty('dramashadow.alpha', 0.0001);
 
 	makeLuaSprite('black', '', 0, 0);	
-    makeGraphic('black', 1280, 720, '0x000000');
+    makeGraphic('black', 1280, 720, '000000');
     setScrollFactor('black', 0, 0);
 	setObjectCamera('black', 'hud');
 	setProperty('black.alpha', 0.001);
     addLuaSprite('black', true);
 	
 	makeLuaSprite('rubyglow', 'SSH/infinitelight', posX, posY);
-	scaleObject('rubyglow', 1.1, 1.1);
+	scaleObject('rubyglow', 2.2, 2.2);
 	setProperty('rubyglow.alpha', 0.001);
 	setObjectCamera('rubyglow', 'hud');
 	addLuaSprite('rubyglow', false);
